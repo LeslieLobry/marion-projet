@@ -1,19 +1,15 @@
-import épilation from "../../data/épilation.json"
+//import épilation from "../../data/épilation.json"
 
-function Epilation (){
+function Epilation (nom, prix){
     return (
-        épilation.map((cire)=>{
-            return(
-                <div className="contenant">
+                        <div className="contenant">
                     <div className="contenant-title">
-                        <h1>{cire.nom}</h1>
+                        <h1>{nom}</h1>
                     </div>
                     <div className="contenant-price">
-                        <p>{cire.prix}</p>
+                        <p>{prix}</p>
                     </div>    
                 </div>
             )
-        })
-    )
 }
 export default Epilation

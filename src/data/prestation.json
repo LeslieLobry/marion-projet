@@ -4,46 +4,92 @@
         "titre":"Épilation",
         "description":"à la pince à épiler ", 
         "pictures":"https://i.imgur.com/aS1PNxt.jpg",
-        "presta":[
+        "presta1":
             {   
-                "nom": "épilation sourcil, lévres ou menton 6€"
+                "nom": "épilation sourcil, lévres ou menton","prix":"6€"
             },
+        "presta2":
             {
                 "nom": "Visage","prix":"15€"
             },
+        "presta3":
             {
                 "nom": "Maillot échancré","prix":"8€"
             },
+        "presta4":
             {
                 "nom": "Maillot ticket","prix":"12€"
             },
+        "presta5":
             {
                 "nom": "Maillot complet", "prix":"18€"
             },
+        "presta6":
             {
                 "nom": "Demi Jambes","prix":"12€"
             },
+        "presta7":
             {
                 "nom": "Jambes complètes",    "prix":"20€"
             },
+        "presta8":
             {
                 "nom": "Cuisses", "prix":"8€"
             },
+        "presta9":
             {
                 "nom": "Bras","prix":"12€"
             },
+        "presta10":
             {
                 "nom": "Aiselles","prix":"7€"
-
             }
-        ]
     },
     {
         "id":"2",
         "titre":"Onglerie ",
         "description":"Des ongles ", 
         "pictures":"https://i.imgur.com/fPhMrRB.jpg",
-        "presta":""
+        "presta1":
+            {   
+                "nom": "épilation sourcil, lévres ou menton","prix":"6€"
+            },
+        "presta2":
+            {
+                "nom": "","prix":""
+            },
+        "presta3":
+            {
+                "nom": "","prix":""
+            },
+        "presta4":
+            {
+                "nom": "","prix":""
+            },
+        "presta5":
+            {
+                "nom": "", "prix":""
+            },
+        "presta6":
+            {
+                "nom": "","prix":""
+            },
+        "presta7":
+            {
+                "nom": "",    "prix":""
+            },
+        "presta8":
+            {
+                "nom": "", "prix":""
+            },
+        "presta9":
+            {
+                "nom": "","prix":""
+            },
+        "presta10":
+            {
+                "nom": "","prix":""
+            }
     }, 
     {
         "id":"3",
