@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    margin-bottom: 2%;
+}
+.header-title{
+    font-size: 25px;
+    color: brown;
+}
+
+.header-title a{
+    text-decoration: none;
+}
+@media screen and (max-width: 750px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+}

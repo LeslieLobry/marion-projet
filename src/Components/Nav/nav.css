@@ -1,0 +1,14 @@
+.nav-contenant{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+}
+.nav-contenant a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bolder;
+}
+
+.nav-contenant :hover{
+    text-decoration: overline;
+}

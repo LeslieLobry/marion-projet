@@ -1,0 +1,76 @@
+[
+    {
+        "id":"1",
+        "titre":"Épilation",
+        "description":"à la pince à épiler ", 
+        "pictures":"https://i.imgur.com/aS1PNxt.jpg",
+        "presta":[
+            {   
+                "nom": "épilation sourcil, lévres ou menton 6€"
+            },
+            {
+                "nom": "Visage","prix":"15€"
+            },
+            {
+                "nom": "Maillot échancré","prix":"8€"
+            },
+            {
+                "nom": "Maillot ticket","prix":"12€"
+            },
+            {
+                "nom": "Maillot complet", "prix":"18€"
+            },
+            {
+                "nom": "Demi Jambes","prix":"12€"
+            },
+            {
+                "nom": "Jambes complètes",    "prix":"20€"
+            },
+            {
+                "nom": "Cuisses", "prix":"8€"
+            },
+            {
+                "nom": "Bras","prix":"12€"
+            },
+            {
+                "nom": "Aiselles","prix":"7€"
+
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "titre":"Onglerie ",
+        "description":"Des ongles ", 
+        "pictures":"https://i.imgur.com/fPhMrRB.jpg",
+        "presta":""
+    }, 
+    {
+        "id":"3",
+        "titre":"Visage",
+        "description":"visage extra", 
+        "pictures":"https://i.imgur.com/dRibPG9.jpg",
+        "presta":""
+    },
+    {
+        "id":"4",
+        "titre":"Corps",
+        "description":"massage, soins...", 
+        "pictures":"https://i.imgur.com/AVpp2ov.jpg",
+        "presta":""
+    },
+    {
+        "id":"5",
+        "titre":"Beauté du regard",
+        "description":"yeux de biche", 
+        "pictures":"https://i.imgur.com/ntFpbU4.jpg",
+        "presta":""
+    },
+    {
+        "id":"6",
+        "titre":"Maquillage permanent",
+        "description":"massage, soins...", 
+        "pictures":"https://i.imgur.com/sXr5BnN.jpg",
+        "presta":""
+    }
+]
