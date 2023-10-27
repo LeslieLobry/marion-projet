@@ -1,6 +1,6 @@
 import prestation from "../../data/prestation.json"
 import { useParams } from "react-router-dom";
-import "../Prestation/prestation.css"
+import "../Element/elements.css"
 
 function Presta (){
 const { id } = useParams();

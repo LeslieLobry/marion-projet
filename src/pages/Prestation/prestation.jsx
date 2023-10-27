@@ -2,8 +2,8 @@ import prestation from "../../data/prestation.json"
 import { useParams } from "react-router-dom";
 import Erreur from "../Erreur/erreur"
 import React from "react";
-import Presta from "../../Components/Prestation/prestation";
-
+import Presta from "../../Components/Element/elements";
+import "../Prestation/prestation.css"
 
 
 function Prestation (){
@@ -14,12 +14,12 @@ return < Erreur/>
 }
 const {titre}=product
     return(
-            <div className="presta-contenant">
+        <div className="presta-contenant">
                 <div className="presta-title">
                         <h1>{titre}</h1>
                 </div>
                 <Presta/>
-             </div>
-            )
+        </div>
+)
 }
 export default Prestation

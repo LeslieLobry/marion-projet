@@ -2,47 +2,56 @@
     {
         "id":"1",
         "titre":"Épilation",
-        "description":"à la pince à épiler ", 
         "pictures":"https://i.imgur.com/aS1PNxt.jpg",
         "presta1":
             {   
-                "nom": "épilation sourcil, lévres ou menton","prix":"6€"
+                "nom": "Épilation sourcil, lévres ou menton","prix":"6€",
+                "description":""
             },
         "presta2":
             {
-                "nom": "Visage","prix":"15€"
+                "nom": "Visage","prix":"15€",
+                "description":""
             },
         "presta3":
             {
-                "nom": "Maillot échancré","prix":"8€"
+                "nom": "Maillot échancré","prix":"8€",
+                "description":""
             },
         "presta4":
             {
-                "nom": "Maillot ticket","prix":"12€"
+                "nom": "Maillot ticket","prix":"12€",
+                "description":""
             },
         "presta5":
             {
-                "nom": "Maillot complet", "prix":"18€"
+                "nom": "Maillot complet", "prix":"18€",
+                "description":""
             },
         "presta6":
             {
-                "nom": "Demi Jambes","prix":"12€"
+                "nom": "Demi Jambes","prix":"12€",
+                "description":""
             },
         "presta7":
             {
-                "nom": "Jambes complètes",    "prix":"20€"
+                "nom": "Jambes complètes","prix":"20€",
+                "description":""
             },
         "presta8":
             {
-                "nom": "Cuisses", "prix":"8€"
+                "nom": "Cuisses", "prix":"8€",
+                "description":""
             },
         "presta9":
             {
-                "nom": "Bras","prix":"12€"
+                "nom": "Bras","prix":"12€",
+                "description":""
             },
         "presta10":
             {
-                "nom": "Aiselles","prix":"7€"
+                "nom": "Aiselles","prix":"7€",
+                "description":""
             }
     },
     {
@@ -52,43 +61,53 @@
         "pictures":"https://i.imgur.com/fPhMrRB.jpg",
         "presta1":
             {   
-                "nom": "épilation sourcil, lévres ou menton","prix":"6€"
+                "nom": "Beauté des mains/pieds compléte","prix":"20€",
+                "description":"Bain moussant, gommage, modelage, masque, crème"
             },
         "presta2":
             {
-                "nom": "","prix":""
+                "nom": "Beauté des ongles","prix":"7€",
+                "description":"Limage, cuticules, polissage"
             },
         "presta3":
             {
-                "nom": "","prix":""
+                "nom": "Pose semi-permanent mains/pieds","prix":"15€",
+                "description":""
             },
         "presta4":
             {
-                "nom": "","prix":""
+                "nom": "Babyboomer/French","prix":"+5€",
+                "description":""
             },
         "presta5":
             {
-                "nom": "", "prix":""
+                "nom": "Déco ongles", "prix":"+2€",
+                "description":""
             },
         "presta6":
             {
-                "nom": "","prix":""
+                "nom": "Dépose mains/pieds","prix":"10€",
+                "description":""
             },
         "presta7":
             {
-                "nom": "",    "prix":""
+                "nom": "Dépose suivi d'une pose","prix":"5€",
+                "description":""
             },
         "presta8":
             {
-                "nom": "", "prix":""
+                "nom": "", "prix":"",
+                "description":""
             },
         "presta9":
             {
-                "nom": "","prix":""
+                "nom": "","prix":"",
+                "description":""
             },
         "presta10":
             {
-                "nom": "","prix":""
+                "nom": "","prix":"",
+                "description":""
             }
     }, 
     {
@@ -96,27 +115,223 @@
         "titre":"Visage",
         "description":"visage extra", 
         "pictures":"https://i.imgur.com/dRibPG9.jpg",
-        "presta":""
-    },
+        "presta1":
+            {   
+                "nom": "Soin Clean","prix":"35€",
+                "description":"Soins non appareillé"
+            },
+        "presta2":
+            {
+                "nom": "Soin traitant purifiant (1h15)","prix":"50€",
+                "description":"Vapozone, extracteur comédons, masque alginate"
+            },
+        "presta3":
+            {
+                "nom": "Soin traitant hydratant (1h15)","prix":"50€",
+                "description":"Vapozone, ultrasons, masque alginate"
+            },
+        "presta4":
+            {
+                "nom": "Soin traitant anti-âge (1h30)","prix":"55€",
+                "description":"Vapozone, lifting visage, ampoule acide hyaluronique, masque alginate"
+            },
+        "presta5":
+            {
+                "nom": "", "prix":"",
+                "description":""
+            },
+        "presta6":
+            {
+                "nom": "","prix":"",
+                "description":""
+            },
+        "presta7":
+            {
+                "nom": "","prix":"",
+                "description":""
+            },
+        "presta8":
+            {
+                "nom": "", "prix":"",
+                "description":""
+            },
+        "presta9":
+            {
+                "nom": "","prix":"",
+                "description":""
+            },
+        "presta10":
+            {
+                "nom": "","prix":"",
+                "description":""
+            }
+    }, 
     {
         "id":"4",
         "titre":"Corps",
         "description":"massage, soins...", 
         "pictures":"https://i.imgur.com/AVpp2ov.jpg",
-        "presta":""
-    },
+        "presta1":
+            {   
+                "nom": "Massage Californen (1h)","prix":"70€",
+                "description":"Une relaxation intense du corps avec des mouvements lent"
+            },
+        "presta2":
+            {
+                "nom": "Massage Lomi Lomi (1h)","prix":"80€",
+                "description":"Modelage puissant, doux et rythmé:il se pratique avec les mains, coudes et avant-bras afin d'apaiser les tensions."
+            },
+        "presta3":
+            {
+                "nom": "Massage Balinais (1h)","prix":"80€",
+                "description":"Des lissages profonds et précis, dynamisant musculaire, favorise la ciculatio, sanguine. Active les défenses immunitaires, relaxe le cops et l'esprit"
+            },
+        "presta4":
+            {
+                "nom": "Massage Tibétaine (1h)","prix":"85€",
+                "description":"Rééquilibrer les énergies avec l'utilisation du bol tibétain. Agit sur le stress, trouble du sommeil, soulage les articulation et élimine les toxines"
+            },
+        "presta5":
+            {
+                "nom": "Massage plantaire (45min)", "prix":"60€",
+                "description":"La stimulation des nombreuses terminaisons nerveuses permet une relaxation du coprs entier et agit sur le retour veineux. Pratique chinoise."
+            },
+        "presta6":
+            {
+                "nom": "Massage cranien visage (25min)","prix":"40€",
+                "description":""
+            },
+        "presta7":
+            {
+                "nom": "","prix":"",
+                "description":""
+            },
+        "presta8":
+            {
+                "nom": "", "prix":"",
+                "description":""
+            },
+        "presta9":
+            {
+                "nom": "","prix":"",
+                "description":""
+            },
+        "presta10":
+            {
+                "nom": "","prix":"",
+                "description":""
+            }
+    }, 
     {
         "id":"5",
         "titre":"Beauté du regard",
         "description":"yeux de biche", 
         "pictures":"https://i.imgur.com/ntFpbU4.jpg",
-        "presta":""
+        "presta1":
+            {   
+                "nom": "Teinture cils/sourcils","prix":"7€",
+                "description":""
+            },
+        "presta2":
+            {
+                "nom": "Rehaussement de cils","prix":"25€",
+                "description":""
+            },
+        "presta3":
+            {
+                "nom": "Rehaussement de cils + Teinture","prix":"30€",
+                "description":""
+            },
+        "presta4":
+            {
+                "nom": "Extension de cil à cil","prix":"35€",
+                "description":""
+            },
+        "presta5":
+            {
+                "nom": "Extension de cils pose mixte", "prix":"40€",
+                "description":""
+            },
+        "presta6":
+            {
+                "nom": "Remplissage cils 2 semaines","prix":"-15€",
+                "description":""
+            },
+        "presta7":
+            {
+                "nom": "Remplissage cils 3 semaines","prix":"-10€",
+                "description":""
+            },
+        "presta8":
+            {
+                "nom": "", "prix":"",
+                "description":""
+            },
+        "presta9":
+            {
+                "nom": "","prix":"",
+                "description":""
+            },
+        "presta10":
+            {
+                "nom": "","prix":"",
+                "description":""
+            }
     },
     {
         "id":"6",
         "titre":"Maquillage permanent",
         "description":"massage, soins...", 
         "pictures":"https://i.imgur.com/sXr5BnN.jpg",
-        "presta":""
-    }
+        "presta1":
+        {   
+            "nom": "Sourcils - Poils à poils","prix":"350€",
+            "description":""
+        },
+    "presta2":
+        {
+            "nom": "Sourcils - Ombragé","prix":"300€",
+            "description":""
+        },
+    "presta3":
+        {
+            "nom": "Yeux - Ras de cils","prix":"200€",
+            "description":""
+        },
+    "presta4":
+        {
+            "nom": "Yeux - Eye-liner","prix":"300€",
+            "description":""
+        },
+    "presta5":
+        {
+            "nom": "Lévres - Contour", "prix":"350€",
+            "description":""
+        },
+    "presta6":
+        {
+            "nom": "Lévres - Compléte","prix":"450€",
+            "description":""
+        },
+    "presta7":
+        {
+            "nom": "Grain de beauté","prix":"60€",
+            "description":""
+        },
+    "presta8":
+        {
+            "nom": "Consultation (déduit du soin)", "prix":"50€",
+            "description":""
+        },
+    "presta9":
+        {
+            "nom": "","prix":"",
+            "description":""
+        },
+    "presta10":
+        {
+            "nom": "","prix":"",
+            "description":""
+        }
+}
 ]
