@@ -1,94 +1,74 @@
 import prestation from "../../data/prestation.json"
 import { useParams } from "react-router-dom";
 import "../Element/elements.css"
+import Accordeon from "../Accordeon/accordeon";
 
 function Presta (){
 const { id } = useParams();
 const product = prestation.find((item) => item.id === id)
-const {presta1, presta2, presta3, presta4, presta5, presta6,presta7, presta8, presta9,presta10 }=product
+const {presta1, presta2, presta3, presta4, presta5, presta8, presta6, presta7, presta9, presta10 }=product
     return(
-        <div className="contenant">
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta1.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta1.prix}</h1>
-                </div> 
-            </div>
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta2.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta2.prix}</h1>
-                </div> 
-            </div>
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta3.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta3.prix}</h1>
-                </div> 
-            </div>
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta4.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta4.prix}</h1>
-                </div> 
-            </div>
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta5.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta5.prix}</h1>
-                </div> 
-            </div>
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta6.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta6.prix}</h1>
-                </div> 
-            </div>
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta7.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta7.prix}</h1>
-                </div> 
-            </div>
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta8.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta8.prix}</h1>
-                </div> 
-            </div>
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta9.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta9.prix}</h1>
-                </div> 
-            </div>
-            <div className="elmt">
-                <div className="nom">
-                    <h1>{presta10.nom}</h1>
-                </div>  
-                <div className="prix">
-                    <h1>{presta10.prix}</h1>
-                </div> 
-            </div>
-        </div>            
+            <div className="contenant">
+                <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta1.nom+presta1.prix} content={presta1.description}> 
+                        </Accordeon>
+                    </div>
+                </div>
+                <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta2.nom+presta2.prix} content={presta1.description}> 
+                        </Accordeon>
+                    </div>
+                </div>
+                <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta3.nom+presta3.prix} content={presta3.description}> 
+                        </Accordeon>
+                    </div>
+                </div>
+                <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta4.nom+presta4.prix} content={presta4.description}> 
+                        </Accordeon>
+                    </div>
+                </div>
+                <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta5.nom+presta5.prix} content={presta5.description}> 
+                        </Accordeon>
+                    </div>
+                </div>
+                <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta6.nom+presta6.prix} content={presta6.description}> 
+                        </Accordeon>
+                    </div>
+                </div>
+                <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta7.nom+presta7.prix} content={presta7.description}> 
+                        </Accordeon>
+                    </div>
+                </div>
+                <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta8.nom+presta8.prix} content={presta8.description}> 
+                        </Accordeon>
+                    </div>
+                </div>
+                <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta9.nom+presta9.prix} content={presta9.description}> 
+                        </Accordeon>
+                    </div>
+                </div> <div className="logement-accordeon">
+                    <div className="description">
+                        <Accordeon title={presta10.nom+presta10.prix} content={presta10.description}> 
+                        </Accordeon>
+                    </div>
+                </div>
+            </div>            
 )
 }
 export default Presta
