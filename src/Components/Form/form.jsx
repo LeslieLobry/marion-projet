@@ -1,33 +1,35 @@
-import { useForm, } from "react-hook-form"
-import "./form.css"
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import '../Form/form.css'
 
-function Form() {
-    const {register, handleSubmit,formState: { errors }} = useForm()
-    const onSubmit = data => console.log(data)
-    console.log(errors)
-    return (
-        <form onSubmit={handleSubmit(onSubmit)}className="form">
-            <label className="label">
-                PRENOM
-                <input name="Firstname" {...register("firstname",{type:"text",required: true} )}/>
-                {errors.firstname && <p>le prenom est demandé, svp</p>}
-            </label>
-            <label className="label">
-                NOM
-                <input name="Lastname" {...register("Lastname",{required: true} )}/>
-                {errors.Lastname && <p>le nom est demandé, svp</p>}
-            </label>
-            <label className="label">
-                Mail
-                <input name="Mail" {...register("Mail",{required: true})}/>
-            </label>
-            {errors.Mail && <p>l'email est demandé, svp</p>}
-            <label className="label">
-                Téléphone
-                <input name="tel" {...register("tel",{required: true})}/>
-                {errors.tel && <p>le numéro de Téléphone est demandé, svp</p>}
-            </label>
-                <input type="submit" />
-        </form>    )}
-    
-    export default Form
+export const App = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_81fbmfo", "template_r71vkvm", form.current, "d8GpT9Ww7m77rDg3g").then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+  };
+
+  return (
+    <div className="form-contenant">
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
+    </div>
+  );
+};
+
+export default App;
