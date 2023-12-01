@@ -11,7 +11,7 @@ const {presta1, presta2, presta3, presta4, presta5, presta8, presta6, presta7, p
             <div className="contenant">
                 <div className="logement-accordeon">
                     <div className="description">
-                        <Accordeon title={presta1.nom+presta1.prix} content={presta1.description}> 
+                        <Accordeon title={presta1.nom+presta1.prix}  content={presta1.description}> 
                         </Accordeon>
                     </div>
                 </div>
