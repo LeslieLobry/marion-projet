@@ -2,12 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2%;
+    padding: 10px;
     margin-bottom: 2%;
+    background-color: #dfbe9c;
+    
 }
 .header-title{
     font-size: 25px;
     color: brown;
+    height: 250px;
+    background-color: #dfbe9c;
+}
+.header-title img{
+    width: 100%;
+    height: 250px;
 }
 
 .header-title a{

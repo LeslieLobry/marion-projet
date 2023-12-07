@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 25px;
+    background-color: #dfbe9c;
+    padding: 1%;
 }
 .footer-liens{
     display: flex;
@@ -14,8 +15,7 @@
     width: 100%;
     height: 50px;
 }
-.footer-title{
-    color: antiquewhite;
-    font-size: 30px;
-    font-weight: 900;
+.footer-title img {
+    width: 100%;
+    height: 250px;
 }
