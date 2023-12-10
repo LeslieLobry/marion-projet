@@ -4,8 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 1px solid black;
-    background-color: #dfbe9c;
     width: 100%;
     height: 600px;
     align-content: center;

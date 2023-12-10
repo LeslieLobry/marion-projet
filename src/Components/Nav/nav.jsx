@@ -5,7 +5,7 @@ function Nav (){
     return(
         <div className="nav-contenant">
             <Link to="/" classname="link">Accueil</Link>
-            <Link to= "/RDV" className="linkRdv">Rendez-vous</Link>
+            <a href="https://fr.resaclick.net/lobry">Rendez-vous</a>
             <Link to="/contact"className="formulaire">Contact</Link>
         </div>
     )
