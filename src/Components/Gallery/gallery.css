@@ -28,6 +28,11 @@
     align-items: center;
    
 }
+.conteneur :hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 5px 10px 10px rgb(161, 157, 157);
+}
 @media screen and (max-width: 750px){
     .gallery-contenant{
         display: flex;
