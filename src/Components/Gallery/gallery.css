@@ -2,9 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
-    background-color: #F6F6F6;
+    background-color: #dfbe9c;
     padding: 50px;
-    border-radius: 25px;
 }
 .gallery-img img{
     width: 100%;
@@ -15,7 +14,7 @@
 }
 .gallery-title{
     position:absolute;
-    color: red;
+    color:#dfbe9c;
 }
 .gallery-img{
     width: 100%;
