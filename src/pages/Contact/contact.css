@@ -1,19 +1,16 @@
 .contact-conteneur{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-}
-.contact-img{
-    background-image: url("https://i.imgur.com/jVnzGYp.jpg");
-    width: 70%;
-    height: 450px;
+    background-color: #dfbe9c;
 }
 .contact-title{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: red;
+    color: brown;
     font-size: 35px;
-    text-decoration: underline;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

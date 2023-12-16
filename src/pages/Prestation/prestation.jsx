@@ -16,7 +16,6 @@ const {titre}=product
     return(
         <div className="presta-contenant">
                 <div className="presta-title">
-                <img src={motif} alt="massage tourcoing"></img>
                         <h1>{titre}</h1>
                 </div>
                 <Presta/>

@@ -15,6 +15,7 @@ function Header (){
             <h1>La Beauté d'une lionne</h1>
             </Link>
             <Nav/>
+            <div className="footer-img"><img src={motif} alt="onglerie tourcoing"></img></div>
         </div>
     )
 }

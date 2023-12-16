@@ -1,19 +1,18 @@
 .header{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
     background-color: #dfbe9c;
 }
 .header-title{
     font-size: 25px;
     color: brown;
-    height: 250px;
     background-color: #dfbe9c;
 }
 .header-title img{
     width: 100%;
-    height: 250px;
+    height: 150px;
 }
 .footer-img img{
     width: 100%;
@@ -26,8 +25,9 @@
 .header-title a{
     text-decoration: none;
 }
-a h1{
+.link{
     text-decoration: none;
+    color: brown;
 }
 @media screen and (max-width: 750px){
     .header{

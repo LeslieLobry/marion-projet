@@ -18,9 +18,7 @@ export const App = () => {
     );  
     
   };
-
   return (
-    <div className="form-contenant">
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" required />
@@ -32,7 +30,6 @@ export const App = () => {
       <textarea name="message" required />
       <input type="submit" value="Envoyer" />
     </form>
-    </div>
   );
 };
 

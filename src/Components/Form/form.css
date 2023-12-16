@@ -2,3 +2,7 @@ form{
     display: flex;
     flex-direction: column;
 }
+.form-contenant{
+    width: 60%;
+    margin-bottom: 30px;
+}
