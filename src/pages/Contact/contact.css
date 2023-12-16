@@ -7,10 +7,15 @@
     align-items: center;
     justify-content: center;
     color: brown;
-    font-size: 35px;
+    
+}
+.contact-title h1{
+    font-size: 70px;
 }
 .contact-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
 }
