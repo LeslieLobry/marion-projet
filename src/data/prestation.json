@@ -89,18 +89,18 @@
         "description":"massage, soins...", 
         "pictures":"https://i.imgur.com/AVpp2ov.jpg",
         "presta":[
-            "Massage californien (1h),Une relaxation intense du corps avec des mouvements lent",
-            "Massage Lomi-Lomi (1h15), Modelage puissant, doux et rythmé : il se pratique avec les mains, coudes et avant-bras afin d'apaiser les tensions", 
-            "Massage Balinais (1h15),Des lissages profonds et précis. Dynamisant musculaire favorise la circulation sanguine, active les défenses immunitaires, relaxe le coprs et l'esprit", 
-            "Massage Tibétain (1h15),Rééquilibrer les énergies avec l'utilisation du bol tibétain, agit sur le stress, trouble du sommeil, soulage les articulations et élimine les toxines ",
-            "Réflexologie plantaire (45min), La stimulation des nombreuses terminaisons nerveuses permet une relaxation du corps entier et agit sur le retour veineux. Pratique chinoise",
+            "Massage californien(1h)(Une relaxation intense du corps avec des mouvements lent)",
+            "Massage Lomi-Lomi (1h15)(Modelage puissant, doux et rythmé : il se pratique avec les mains, coudes et avant-bras afin d'apaiser les tensions)",
+            "Massage Balinais (1h15)(Des lissages profonds et précis. Dynamisant musculaire favorise la circulation sanguine, active les défenses immunitaires, relaxe le coprs et l'esprit)",
+            "Massage Tibétain (1h15)(Rééquilibrer les énergies avec l'utilisation du bol tibétain, agit sur le stress, trouble du sommeil, soulage les articulations et élimine les toxines)",
+            "Réflexologie plantaire (45min)(La stimulation des nombreuses terminaisons nerveuses permet une relaxation du corps entier et agit sur le retour veineux. Pratique chinoise)",
             "Massage crânien (30min),"
         ],
         "prix":[
             "50€",
             "55€",
             "55€",
-            "60",
+            "60€",
             "40€",
             "20€"
         ]
@@ -109,7 +109,7 @@
         "id":"5",
         "titre":"Beauté du regard",
         "description":"yeux de biche", 
-        "pictures":"https://i.imgur.com/wnlaFWj.jpg",
+        "pictures":"https://i.imgur.com/Q8AvDhV.jpg",
         "presta":[
             "Teinture de cils",
             "Teinture des sourcils", 
