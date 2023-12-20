@@ -14,10 +14,12 @@
     border-radius: 25px;
 }
 .gallery-title{
-    position:absolute;
-    color:brown;
+    color:rgb(7, 0, 0);
     font-weight: 900;
     font-size: 25px;
+}
+a {
+    text-decoration: none;
 }
 .gallery-img{
     width: 100%;
