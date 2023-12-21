@@ -20,7 +20,8 @@
             "Jambes complètes",
             "Poitrine",
             "Nez/inter souricles",
-            "2 zones épilées -5% 3 zones épilées -10% Par personne & en un RDVS"
+            "2 zones épilées -5% 3 zones épilées -10%,",
+            "Par personne & en un RDVS"
         ], 
         "prix":[
             "7€",
@@ -76,7 +77,8 @@
             "Soin nettoyant/hydratant (1h)", 
             "Soin purifiant (1h10)", 
             "Soin Anti-âge (1h15)",
-            "Tous les soins comportent un démaquillage, nettoyage,gommage, masque, sérum et crème de jour"
+            "Tous les soins comportent un démaquillage,",
+            "nettoyage,gommage, masque, sérum et crème de jour"
         ],
         "prix":[
             "30€",
@@ -90,7 +92,7 @@
         "id":"4",
         "titre":"Corps",
         "description":"massage, soins...", 
-        "pictures":"https://i.imgur.com/dzUWirl.jpg",
+        "pictures":"https://i.imgur.com/M20cqNt.jpg",
         "presta":[
             "Massage californien(1h)",
             "Massage Lomi-Lomi (1h15)",

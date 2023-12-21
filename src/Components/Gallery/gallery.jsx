@@ -7,7 +7,9 @@ function Gallery() {
     <section className="gallery-contenant">
       {prestation.map((product) => {
         return (
+          
           <Link to={`/Prestation/${product.id}`}>
+            <div key={product.id}>
             <div className="conteneur">
                 <div className="gallery-title">
                   <h2>{product.titre}</h2>
@@ -15,6 +17,7 @@ function Gallery() {
                 <div className="gallery-img">
                   <img src={product.pictures}alt="épilation à la cire, tourcoing "></img>
                 </div>
+            </div>
             </div>
           </Link>
           

@@ -11,7 +11,7 @@ function Footer (){
             <div className="footer-conteneur">
                 <div className="footer-img"><img src={motif} alt="onglerie tourcoing"></img></div>
                 <div className="footer-title">
-                <Link to="/" classname="link"> <img src={marionlogo2} alt="estheticienne tourcoing"/></Link>
+                <Link to="/" className="link"> <img src={marionlogo2} alt="estheticienne tourcoing"/></Link>
                 </div>
                 <div className="footer-liens">
                     <a href ="https://www.instagram.com/majestueusemane/"><img src ={instagram}alt= "esthétique Tourcoing"></img></a>

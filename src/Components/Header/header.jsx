@@ -9,7 +9,7 @@ function Header (){
         <div className="header">
              <div className="footer-img"><img src={motif} alt="onglerie tourcoing"></img></div>
             <div className="header-title">
-                <Link to="/" classname="link"> <img src={marionlogo2} alt="estheticienne tourcoing"/></Link>
+                <Link to="/" className="link"> <img src={marionlogo2} alt="estheticienne tourcoing"/></Link>
             </div>
             <Link to="/"className="link">
             <h1>La Beauté d'une lionne</h1>
