@@ -39,7 +39,8 @@
             "20€",
             "15€",
             "5€"
-        ]
+        ], 
+        "details":[]
     },
     {
         "id":"2",
@@ -62,7 +63,8 @@
             "sur devis",
             "+5€",
             "10€"
-        ]
+        ],
+        "details":[]
     }, 
     {
         "id":"3",
@@ -81,7 +83,8 @@
             "45€",
             "50€",
             "60€"
-        ]
+        ],
+        "details":[]
     }, 
     {
         "id":"4",
@@ -89,11 +92,11 @@
         "description":"massage, soins...", 
         "pictures":"https://i.imgur.com/dzUWirl.jpg",
         "presta":[
-            "Massage californien (1h),Une relaxation intense du corps avec des mouvements lent",
-            "Massage Lomi-Lomi (1h15), Modelage puissant, doux et rythmé : il se pratique avec les mains, coudes et avant-bras afin d'apaiser les tensions", 
-            "Massage Balinais (1h15),Des lissages profonds et précis. Dynamisant musculaire favorise la circulation sanguine, active les défenses immunitaires, relaxe le coprs et l'esprit", 
-            "Massage Tibétain (1h15),Rééquilibrer les énergies avec l'utilisation du bol tibétain, agit sur le stress, trouble du sommeil, soulage les articulations et élimine les toxines ",
-            "Réflexologie plantaire (45min), La stimulation des nombreuses terminaisons nerveuses permet une relaxation du corps entier et agit sur le retour veineux. Pratique chinoise",
+            "Massage californien (1h)",
+            "Massage Lomi-Lomi (1h15)", 
+            "Massage Balinais (1h15)", 
+            "Massage Tibétain (1h15)",
+            "Réflexologie plantaire (45min)",
             "Massage crânien (30min),"
         ],
         "prix":[
@@ -103,6 +106,13 @@
             "60",
             "40€",
             "20€"
+        ],
+        "details":[
+            "Une relaxation intense du corps avec des mouvements lent",
+            "Modelage puissant, doux et rythmé : il se pratique avec les mains, coudes et avant-bras afin d'apaiser les tensions",
+            "Des lissages profonds et précis. Dynamisant musculaire favorise la circulation sanguine, active les défenses immunitaires, relaxe le coprs et l'esprit",
+            "Rééquilibrer les énergies avec l'utilisation du bol tibétain, agit sur le stress, trouble du sommeil, soulage les articulations et élimine les toxines",
+            "La stimulation des nombreuses terminaisons nerveuses permet une relaxation du corps entier et agit sur le retour veineux. Pratique chinoise"
         ]
     }, 
     {
@@ -129,7 +139,8 @@
             "15€",
             "20€", 
             "38€"
-        ]
+        ],
+        "details":[]
     },
     {
         "id":"6",
@@ -155,7 +166,8 @@
             "190€",
             "40€", 
             "30€"
-        ]
+        ],
+        "details":[]
     },
     {
         "id":"7",
@@ -200,7 +212,8 @@
             "23€",
             "26€", 
             "5€"
-        ]
+        ],
+        "details":[]
     }
 
 
