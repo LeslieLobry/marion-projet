@@ -4,7 +4,6 @@ import Erreur from "../Erreur/erreur"
 import React from "react";
 import Presta from "../../Components/Element/elements";
 import "../Prestation/prestation.css"
-import motif from "../../Assets/motif.jpg"
 
 function Prestation (){
 const { id } = useParams();

@@ -6,16 +6,11 @@
     align-content: center;
     justify-content: center;
 }
+
 .titre{
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    font-weight: 900;
-}
-.prix{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     font-weight: 900;
 }
 li{
