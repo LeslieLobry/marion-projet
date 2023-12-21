@@ -41,4 +41,7 @@ a {
         display: flex;
         flex-direction: column;
     }
+    .gallery-title h2{
+        font-size: 25px;
+    }
 }
